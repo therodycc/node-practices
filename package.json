@@ -1,0 +1,24 @@
+{
+  "name": "practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"ts-node ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therodycc/node-practices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therodycc/node-practices/issues"
+  },
+  "homepage": "https://github.com/therodycc/node-practices#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
