@@ -8,7 +8,6 @@ class IndexRouter {
     }
     config(){
         this.router.get('/', indexController.get)
-        
     }
 }
 

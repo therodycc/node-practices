@@ -2,8 +2,8 @@ import express, { Application, urlencoded } from 'express'
 import morgan from 'morgan'
 import cors from "cors";
 import indexRouter from './routes/index.routes';
-import weatherController from './controllers/weather/weather.controller';
 import weatherRoutes from './routes/weather/weather.routes';
+import mongoose from 'mongoose'
 
 class Server {
 

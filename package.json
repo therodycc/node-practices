@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev ./src",
+    "exercises": "ts-node-dev ./src/exercises",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +30,7 @@
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "express": "^4.17.2",
+    "mongoose": "^6.1.7",
     "morgan": "^1.10.0",
     "typescript": "^4.5.4",
     "yargs": "^17.3.1"
