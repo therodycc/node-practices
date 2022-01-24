@@ -9,6 +9,10 @@ class IndexRouter {
     config(){
         this.router.get('/', indexController.get)
     }
+
+    routes(){
+        
+    }
 }
 
 const indexRouter = new IndexRouter();
